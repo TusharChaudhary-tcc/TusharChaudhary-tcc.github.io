@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f1f2f4;
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 0;
+}
+.navbar{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 3%;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.searchbar{
+    background-color: #f0f5ff;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.searchbar>input[type="search"]{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.links{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    gap: 5px;
+}
+.links>a{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    gap: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(96, 93, 93);
+}
+.active:hover{
+    background-color: #2a55e5;
+    color: white;
+    border-radius: 10px;
+}
+.categories{
+    background-color: white;
+    margin: 10px 15px;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.categ-card{
+    flex: 1;
+    height: auto;
+    text-align: center;
+    
+}
+.categ-card>h4{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-wrap: nowrap;
+    margin-top: 5px;
+    color: rgb(41, 40, 40);
+}
+.categ-card>img{
+    height: 70px;
+}
+.banner{
+    flex: 1;
+}
+.banner>img{
+    width: 100%;
+    margin: 15px ;
+}
+.cont{
+    margin-left: 15px;
+    background-color: white;
+    height: 320px;
+}
+.deals{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+.deals::-webkit-scrollbar{
+    display: none;
+}
+.deals-image{
+    min-width: 180px;
+    height: 240px;
+    background: #fff;
+    text-align: center;
+    flex-shrink: 0;
+}
+.deals-image img{
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+}
+.deals-image h4{
+    font-size: 14px;
+    margin-top: 5px;
+}
+ .para {
+  font-size: 14px;
+  color: #555;
+  white-space: nowrap;      /* text in one line*/
+   overflow: hidden;        /* hide extra text*/
+  text-overflow: ellipsis;  /* show ...*/
+} 
+
+.blue{
+    /* flex: 1; */
+    display: grid;
+    margin: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background: #f1f2f4;
+    
+}
+.status{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 12px;     
+    column-gap: 20px; 
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+}
+.product-column{
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    
+}
+
+.product-column h4{
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #212121;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: stretch; */
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 12px;
+    background-color: #fff;
+    height: 100%;
+}
+.item img{
+    /* display: block; */
+    display: flex;
+    /* margin: 0 auto; */
+    /* width: 170px; */
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    /* object-fit: contain; */
+}
+.item:hover img{
+    transform: scale(1.05);
+}
+.item:hover{
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.item{
+    transition: box-shadow 0.2s ease;
+}
+
+.item img{
+    transition: transform 0.2s ease;
+}
+.info{
+    width: 100%;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: left;
+}
+.item p{
+    margin: 0;              
+    /* font-size: 14px; */
+    /* color: #212121; */
+}
+.item .price{
+    color: #388e3c;
+    font-weight: 600;
+    font-size: 13px;
+}
+.img-box{
+    height: 160px;              
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-box img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.item{
+    height: 100%;
+}
+
+.title{
+    font-size: 14px;        
+    color: #212121;
+    font-weight: 700;
+    line-height: 20px
+}
+
+.price{
+     font-size: 18px;        
+    color: #108934;         
+    font-weight: 900;
+    line-height: 22px;
+    margin-top: 2px;
+}
+.boxer{
+   background-color: #f9f1e6;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxertext{
+    padding-top: 70px;
+    padding-left: 25px;
+}
+
+.boxertext h1{
+    font-size: 34px;          
+    font-weight: 700;
+    color: #6a4204;
+}
+
+.boxertext p{
+    font-size: 16px;
+    color: #7e776b;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.boxerimg{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxerimg img{
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 14px;
+    background: #fff;
+}
+.boxer button{
+    align-self: flex-start;
+    background-color: #ffe6cb;
+    color: #6a4204;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px;
+}
+.boxer button:hover{
+    background-color: #ffddb0;
+}
+
+.divu{
+    background-color: white;
+    margin: 15px;
+    
+}
+.divider{
+    display: flex;
+    gap: 60px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+.divider::-webkit-scrollbar{
+    display: none;
+}
+.head{
+    padding: 20px;
+    font-size: 24px;
+    color: #1f1f1f;
+}
+.dividerimg{
+    min-width: 180px;
+    /* height: 240px; */
+    background: #fff;
+    text-align: center;
+    flex-shrink: 0;
+}
+.dividerimg .dividerpara{
+    font-size: 16px;
+    color: #212121;
+    margin-top: 8px;
+}
+.divider{
+    cursor: grab;
+}
+.divider:active{
+    cursor: grabbing;
+}
+.dividerimg .dividerprice{
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+}
+.dividerimg img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
