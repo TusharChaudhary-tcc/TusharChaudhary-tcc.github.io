@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipkart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -18,7 +21,7 @@
                 <span>
                     <svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 </span>
-                <input type="search" size="55" placeholder="Search for Products, Brands and More">
+                <input type="search" size="55   " placeholder="Search for Products, Brands and More">
             </div>
         
         <div class="links">
@@ -26,24 +29,54 @@
                 <img src="profilel_ogo.svg" alt="">
                 <span>Login</span>
             </a>
-            <a href="" class="icn-btn">
+            <a href="https://www.flipkart.com/viewcart?marketplace=FLIPKART" class="icn-btn">
                 <img src="cart_logo.svg" alt="">
                 <span>Cart</span>
             </a>
-            <a href="" class="icn-btn">
+            <a href="https://seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect" class="icn-btn">
                 <img src="seller_logo.svg" alt="">
                 <span>Become a Seller</span>
             </a>
+            <!-- Three dot -->
+            <div class="menu-wraper">
             <a href="" class="icn-btn">
                 <img src="dots_logo.svg" alt="">
             </a>
+            <div class="menu-dropdown">
+                <div class="dropdownItem">
+                    <span>
+                        <img src="notificationPreferencesLogo.svg" alt="">
+                    </span>
+                Notification Preferences
+                </div>
+                <div class="dropdownItem">
+                    <span>
+                        <img src="helpcenterLogo.svg" alt="">
+                    </span>
+                24x7 Customer Care
+                </div>
+                <div class="dropdownItem">
+                    <span>
+                        <img src="advertiseLogo.svg" alt="">
+                    </span>
+                    Advertise</div>
+                <div class="dropdownItem">
+                    <span>
+                        <img src="downloadAppLogo.svg" alt="">
+                    </span>
+                    Download App</div>
+            </div>
+            </div>
+
         </div>
     </div>
 
+    <div class="superdiv">
     <!-- 2 -->
+
     <div class="categories">
         <div class="categ-card">
-            <img src="/first.png" alt="">
+            <img src="first.png" alt="">
             <h4>Minutes</h4>
         </div>
         <div class="categ-card">
@@ -87,47 +120,47 @@
 
      <!-- 4 -->
      <div class="cont">
-        <div style="padding: 20px 0 5px 20px; font-size: 24px; color: #1f1f1f;">
-            <h3>Top Deals</h3>
+        <div style="padding-left: 1rem; padding-top: 0.25rem; font-size: 20px; color: #1f1f1f;">
+            <h4>Top Deals</h4>
         </div>
         <div class="deals">
             <div class="deals-image">
-            <img src="projector.jpeg" alt="" >
+            <img src="projector.jpeg" alt="" id="dealsid">
                 <p class="para">Projector</p>
                 <h4>From &#8377; 6990 </h4>
             </div>
-            <div class="deals-image" style="padding-bottom: 25px;">
-                <img src="speaker.jpeg" alt="" >
+            <div class="deals-image" style="padding-bottom: 5px;">
+                <img src="speaker.jpeg" alt="" id="dealsid">
                 <p class="para">Best Selling Mobile Speakers</p>
                 <h4>From &#8377; 499* </h4>
             </div>
             <div class="deals-image">
-                <img src="Monitors1.jpeg" alt="" >
+                <img src="Monitors1.jpeg" alt="" id="dealsid">
                 <p class="para">Monitors</p>
                 <h4>From &#8377; 6599 </h4>
             </div>
             <div class="deals-image">
-                <img src="watch.png" alt="" >
+                <img src="watch.png" alt="" id="dealsid">
                 <p class="para">Fastrack Smartwatches</p>
                 <h4>From &#8377; 1,399</h4>
             </div>
             <div class="deals-image">
-                <img src="pr.png" alt="" >
+                <img src="pr.png" alt="" id="dealsid">
                 <p class="para">Printers</p>
                 <h4>From &#8377; 2336</h4>
             </div>
             <div class="deals-image">
-                <img src="Monitors2.jpeg" alt="" >
+                <img src="Monitors2.jpeg" alt="" id="dealsid">
                 <p class="para">Monitors</p>
                 <h4>From &#8377; 7949 </h4>
             </div> 
             <div class="deals-image">
-                <img src="Printer2.jpeg" alt="" >
+                <img src="Printer2.jpeg" alt="" id="dealsid">
                 <p class="para">Printers</p>
                 <h4>From &#8377; 3999 </h4>
             </div>
             <div class="deals-image">
-                <img src="ASUS_Monitors.jpeg" alt="" >
+                <img src="ASUS_Monitors.jpeg" alt="" id="dealsid">
                 <p class="para">ASUS Monitors</p>
                 <h4>From &#8377; 14999 </h4>
             </div>
@@ -137,32 +170,32 @@
 
      <!-- 5 -->
       <div class="blue">
-        <div>
-            <img src="blue1.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue1.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue2.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue2.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue3.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue3.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue4.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue4.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue5.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue5.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue6.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue6.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue7.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue7.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue8.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue8.jpg" alt="" style="width: 461px;">
         </div>
-        <div>
-            <img src="blue9.jpg" alt="">
+        <div class="blueimg">
+            <img src="blue9.jpg" alt="" style="width: 461px;">
         </div>
 
       </div>
@@ -173,9 +206,10 @@
       <!-- Row 1 -->
         <!-- column 1 -->
         <div class="product-column">
-            <h4>End of Season Sale</h4>
-            <div class="status">
 
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">End of Season Sale</p>
+            <div class="status">
+                
             <div class="item">
             <div class="img-box">
             <img src="watch1.jpeg">
@@ -220,7 +254,7 @@
 
         <!-- column 2 -->
         <div class="product-column">
-            <h4>Best Deals on Furniture</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Best Deals on Furniture</p>
             <div class="status">
 
             <div class="item">
@@ -267,7 +301,7 @@
 
         <!-- column 3 -->
         <div class="product-column">
-            <h4>Make your home stylish</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Make your home stylish</p>
             <div class="status">
 
             <div class="item">
@@ -316,7 +350,7 @@
      <!-- Row 2 -->
        <!-- Column 1 -->
         <div class="product-column">
-            <h4>Fashion's Top Deals</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Fashion's Top Deals</p>
             <div class="status">
 
             <div class="item">
@@ -363,15 +397,15 @@
 
         <!-- Column 2 -->
         <div class="product-column">
-            <h4>Hair  & Skincare Essentials</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Hair  & Skincare Essentials</p>
             <div class="status">
 
             <div class="item">
             <div class="img-box">
-            <img src="hairremoval22.jpeg">
+            <img src="charcoal.jpeg">
             </div>
             <div class="info">
-            <p class="title">Hair Removal</p>
+            <p class="title">Charcoal Face Wash</p>
             <p class="price">Min. 50% Off</p>
             </div>
             </div>
@@ -410,7 +444,7 @@
 
         <!-- Column 3 -->
         <div class="product-column">
-            <h4>Top picks of the sale</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Top picks of the sale</p>
             <div class="status">
 
             <div class="item">
@@ -458,7 +492,7 @@
          <!-- Row 3 -->
        <!-- Column 1 -->
         <div class="product-column">
-            <h4>Christmas Special</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Christmas Special</p>
             <div class="status">
 
             <div class="item">
@@ -505,7 +539,7 @@
 
         <!-- Column 2 -->
         <div class="product-column">
-            <h4>Best Value Deals on Fashion</h4>
+            <p style="font-size: 20px; font-weight: bolder; color: #1f1f1f;">Best Value Deals on Fashion</p>
             <div class="status">
 
             <div class="item">
@@ -559,9 +593,9 @@
                 <p>Discover our Premium Furniture Collection!</p>
             </div>
             <div class="boxerimg">
-                <img src="1flyingchair33.png" alt="">
-                <img src="2recliners33.jpeg" alt="">
-                <img src="3sofa33.webp" alt="">
+                <img src="1flyingchair33.png" alt="" style="width: 140px; height: 220px;">
+                <img src="2recliners33.jpeg" alt="" style="width: 140px; height: 220px;">
+                <img src="3sofa33.webp" alt="" style="width: 140px; height: 220px; "    >
             </div>
             <button>See Collection ></button>
         </div>
@@ -571,12 +605,12 @@
         <!-- 7 -->
 
         <div class="divu">
-            <div class="head">
+            <div style="padding-left: 1rem; padding-top: 2px; font-size: 20px; color: #1f1f1f;" >
                 <h4>Furniture Deals</h4>
             </div>
             <div class="divider">
                 <div class="dividerimg">
-                    <img src="divider1.jpeg" alt="">
+                    <img src="divider1.jpeg" alt="" style="height: 130px; width: 130px;">
                     <p class="dividerpara">Mattresses</p>
                     <p class="dividerprice">From &#8377; 2,990 </p>
                 </div>
@@ -615,65 +649,54 @@
                     <p class="dividerpara">Sofa Beds</p>
                     <p class="dividerprice">From &#8377; 6,099 </p>
                 </div>
-                </div>
+            </div>
         </div>
-        <div class="divu">
-            <div class="head">
+                <div class="divu">
+            <div style="padding-left: 1rem; padding-top: 1px; font-size: 20px; color: #1f1f1f;" >
                 <h4>Furniture Deals</h4>
             </div>
             <div class="divider">
-                <div class="divideerimg">
-                    <img src="diver1.jpeg" alt="">
-                    <p class="diverpara">Kitchen Essentials</p>
-                    <p class="diverprice">From &#8377; 1249 </p>
+                <div class="dividerimg">
+                    <img src="diver1.jpeg" alt="" style="height: 130px; width: 130px;">
+                    <p class="dividerpara">Kitchen Essentials</p>
+                    <p class="dividerprice">From &#8377; 1249 </p>
                 </div>
-                <div class="diverimg">
-                    <img src="diver2.jpeg" alt="">
+                <div class="dividerimg">
+                    <img src="diver2.jpeg" alt="" style="height: 130px; width: 130px;">
                     <p class="dividerpara">Home Essentials</p>
                     <p class="dividerprice">Shop Now!</p>
                 </div>
                 <div class="dividerimg">
-                    <img src="diver3.jpeg" alt="">
+                    <img src="diver3.jpeg" alt="" style="height: 130px; width: 130px;">
                     <p class="dividerpara">Fans & Geysers</p>
                     <p class="dividerprice">From &#8377; 799 </p>
                 </div>
                 <div class="dividerimg">
-                    <img src="divider4.jpeg" alt="">
-                    <p class="dividerpara">Beds</p>
-                    <p class="dividerprice">From &#8377; 1,790 </p>
+                    <img src="diver4.jpg" alt="" style="height: 130px; width: 130px;">
+                    <p class="dividerpara">Bata, Khadim's...</p>
+                    <p class="dividerprice">From &#8377; 499 </p>
                 </div>
                 <div class="dividerimg">
-                    <img src="divider5.jpeg" alt="">
-                    <p class="dividerpara">TV Units</p>
-                    <p class="dividerprice">From &#8377; 1,249 </p>
+                    <img src="diver5.jpeg" alt="" style="height: 130px; width: 160px;">
+                    <p class="dividerpara">Puma, Adidas...</p>
+                    <p class="dividerprice">Min. 40% Off</p>
                 </div>
                 <div class="dividerimg">
-                    <img src="divider6.jpeg" alt="">
-                    <p class="dividerpara">Sofa Beds</p>
-                    <p class="dividerprice">From &#8377; 6,099 </p>
+                    <img src="diver6.jpeg" alt="" style="height: 130px; width: 130px;">
+                    <p class="dividerpara">Allen Solly & Van Heusen</p>
+                    <p class="dividerprice">Min. 40% Off</p>
                 </div>
-                <div class="dividerimg">
-                    <img src="divider7.jpeg" alt="">
-                    <p class="dividerpara">Sofa Set</p>
-                    <p class="dividerprice">From &#8377; 21,999 </p>
-                </div>
-                <div class="dividerimg">
-                    <img src="divider8.jpeg" alt="">
-                    <p class="dividerpara">Sofa Beds</p>
-                    <p class="dividerprice">From &#8377; 6,099 </p>
-                </div>
-                </div>
+                
+            </div>
         </div>
+
+            
         
 
+
+ 
+        </div>
 
 
 </body>
 </html>
-
-
-
-
-
-
-
