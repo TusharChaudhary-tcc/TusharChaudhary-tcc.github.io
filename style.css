@@ -1,7 +1,6 @@
-*{
-    /* margin: 0; */
-}
-
+/* *{
+    box-sizing: border-box;
+} */
 body{
     background-color: #f1f2f4;
     font-family: Roboto, Arial, sans-serif;
@@ -24,7 +23,6 @@ body::-webkit-scrollbar{
     padding: 0.5rem 1rem;
     justify-content: space-between;
     position: sticky;
-    width: 1400px;
     top: 0;
     left: 0;
     bottom: 0;
@@ -70,6 +68,7 @@ body::-webkit-scrollbar{
     background-color: #2a55e5;
     color: white;
     border-radius: 10px;
+    cursor: progress;
 }
 .menu-wraper{
     position: relative;
@@ -142,7 +141,7 @@ body::-webkit-scrollbar{
     margin-bottom: 10px;
 }
 .banner img{
-    width: 1405px;
+    width: 1400px;
     min-width: 100%;
     margin-top: 10px;
 }
@@ -386,8 +385,6 @@ body::-webkit-scrollbar{
     white-space: nowrap;      
     overflow: hidden;        
     text-overflow: ellipsis;
-    /* padding-top: 0px; */
-    /* padding-bottom: 0; */
  }
 
 .dividerprice{
@@ -399,8 +396,49 @@ body::-webkit-scrollbar{
 .dividerimg img{
     width: 130px;
     height: auto;
-    /* padding-bottom: 0%; */
-    /* object-fit: contain; */
+}
+
+.allabout{
+    background-color: #F5F5F5;
+    margin-top: 2.3rem;
+}
+.integer{
+    padding-top: 1.7rem;
+    padding-left: 1.4rem;
+    padding-bottom: .5rem;
+}
+
+.blackfooter{
+    background-color: #212121;
+    color: white;
+}
+.total{
+    display: flex;
+    padding-right: 2%;
+    /* min-width: 1200px; */
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 1.5px solid #454D5E;
+}
+.internal{
+    display: block;
+    padding: 20px 5px;
+    font-size: .83rem;
+    font-weight: 550;
+    line-height: 1.4;
+}
+.internal:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footerend{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.8rem;
+}
+.helpline{
+    display: flex;
+    gap: 0.8rem;
 }
 
 
@@ -431,5 +469,11 @@ body::-webkit-scrollbar{
 
     .blue{
         grid-template-columns: 1fr;
+    }
+    .allabout{
+        display: none;
+    }
+    .blackfooter{
+        display: none;
     }
 }
