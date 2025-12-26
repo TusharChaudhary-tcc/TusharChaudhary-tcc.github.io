@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flipkart</title>
+    <title>Flipkart Clone</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+
+    <link rel="icon" href="favicon.ico">
+
 </head>
 <body>
 
     <!-- 1 -->
     <div class="navbar">
+
+        <label for="menu-toggle" class="hamburger">☰</label>
+
         <div class="logo">
             <img src="Flipkart_logo.svg" alt="">
         </div>
@@ -25,18 +28,21 @@
             </div>
         
         <div class="links">
-            <a href="https://www.flipkart.com/account/login?ret=/" class="icn-btn active">
+            <a href="https://www.flipkart.com/account/login?ret=/"  class="loginbutton">
                 <img src="profilel_ogo.svg" alt="">
                 <span>Login</span>
+                <img src="dropdown.svg" alt="">
             </a>
-            <a href="https://www.flipkart.com/viewcart?marketplace=FLIPKART" class="icn-btn">
+            <a href="https://www.flipkart.com/viewcart?marketplace=FLIPKART">
                 <img src="cart_logo.svg" alt="">
                 <span>Cart</span>
             </a>
-            <a href="https://seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect" class="icn-btn">
+            <span class="becomeSeller">
+            <a href="https://seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect" >
                 <img src="seller_logo.svg" alt="">
                 <span>Become a Seller</span>
             </a>
+            </span>
             <!-- Three dot -->
             <div class="menu-wraper">
             <a href="" class="icn-btn">
@@ -85,11 +91,15 @@
         </div>
         <div class="categ-card">
             <img src="third.png" alt="">
-            <h4>Fashion</h4>
+            <h4>Fashion
+                <img src="dropdown.svg">
+            </h4>
         </div>
         <div class="categ-card">
             <img src="fourth.png" alt="">
-            <h4>Electronics</h4>
+            <h4>Electronics
+                <img src="dropdown.svg">
+            </h4>
         </div>
         <div class="categ-card">
             <img src="fifth.png" alt="">
@@ -97,7 +107,9 @@
         </div>
         <div class="categ-card">
             <img src="sixth.png" alt="">
-            <h4>Home & Furniture</h4>
+            <h4>Home & Furniture
+                <img src="dropdown.svg">
+            </h4>
         </div>
         <div class="categ-card">
             <img src="seventh.png" alt="">
@@ -105,7 +117,9 @@
         </div>
         <div class="categ-card">
             <img src="eight.png" alt="">
-            <h4>Beauty, Food</h4>
+            <h4>Beauty, Food
+                <img src="dropdown.svg">
+            </h4>
         </div>
         <div class="categ-card">
             <img src="nineth.png" alt="">
@@ -114,9 +128,15 @@
     </div>
 
     <!-- 3.banner -->
-     <div class="banner">
-        <img src="banner.png" alt="">
-     </div>
+     
+     <!-- <div class="banner">
+        <img src="banner.png" >
+     </div> -->
+
+     <section class="sectionban"></section>
+
+
+
 
      <!-- 4 -->
      <div class="cont">
@@ -171,31 +191,31 @@
      <!-- 5 -->
       <div class="blue">
         <div class="blueimg">
-            <img src="blue1.jpg" alt="" style="width: 461px;">
+            <img src="blue1.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue2.jpg" alt="" style="width: 461px;">
+            <img src="blue2.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue3.jpg" alt="" style="width: 461px;">
+            <img src="blue3.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue4.jpg" alt="" style="width: 461px;">
+            <img src="blue4.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue5.jpg" alt="" style="width: 461px;">
+            <img src="blue5.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue6.jpg" alt="" style="width: 461px;">
+            <img src="blue6.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue7.jpg" alt="" style="width: 461px;">
+            <img src="blue7.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue8.jpg" alt="" style="width: 461px;">
+            <img src="blue8.jpg" >
         </div>
         <div class="blueimg">
-            <img src="blue9.jpg" alt="" style="width: 461px;">
+            <img src="blue9.jpg"    >
         </div>
 
       </div>
@@ -1028,7 +1048,12 @@
                 <div class="helpline">
                     <img src="footer-payment-method.svg" style="width: 25rem;">
                 </div>
+            </div><br>
+
+            <div class="madeby" style="text-align: center; font-size: large; font-weight: bolder; font-family: 'Times New Roman', Times, serif;">
+                MADE BY &nbsp;TUSHAR CHAUDHARY
             </div>
+            <br>
         </div>
 
 </body>
