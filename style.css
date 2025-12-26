@@ -420,6 +420,7 @@ body::-webkit-scrollbar{
     padding-bottom: 1.5rem;
     border-bottom: 1.5px solid #454D5E;
 }
+
 .internal{
     display: block;
     padding: 20px 5px;
@@ -427,14 +428,22 @@ body::-webkit-scrollbar{
     font-weight: 550;
     line-height: 1.4;
 }
-.internal:hover{
+/* .internal:hover{
     text-decoration: underline;
     cursor: pointer;
-}
+} */
 .footerend{
     display: flex;
     justify-content: space-evenly;
     padding: 0.8rem;
+}
+.footerlist{
+    text-decoration: none;
+    color: white;
+}
+.footerlist:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .helpline{
     display: flex;
