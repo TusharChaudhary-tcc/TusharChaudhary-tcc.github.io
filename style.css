@@ -477,6 +477,81 @@ body::-webkit-scrollbar{
     display: flex;
     gap: 0.8rem;
 }
+.madeby{
+    text-align: center; 
+    font-size: x-large; 
+    font-weight: bolder; 
+    font-family: 'Cinzel', 
+    serif; letter-spacing: 2px; 
+    color: goldenrod;
+}
+
+.linebreak{
+    /* width: 100%; height: 
+    3px; margin: 0 auto 10px; 
+    background: linear-gradient( to right, #FF9933, #FFFFFF, #138808); 
+    border-radius: 5px; */
+
+    width: 100%;
+  height: 4px;
+  margin: 0 auto 10px;
+  background: linear-gradient(to right, transparent, #d4af37, transparent);
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.8);
+   background-size: 300% 300%;
+  animation: move 4s infinite linear;
+  border-radius: 5px;
+
+  /* width: 100%;
+  height: 3px;
+  margin: 0 auto 10px;
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  background-size: 300% 300%;
+  animation: move 3s infinite linear;
+  border-radius: 5px; */
+
+  /* width:100%;
+  height: 3px;
+  margin: 0 auto 10px;
+  background: linear-gradient( 
+  90deg,
+  #ff0080,
+  #7928ca,
+  #2afadf
+   );
+  background-size: 300% 300%;
+  animation: move 3s infinite linear;
+  border-radius: 5px; */
+
+}
+
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.social-links {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.social-links a {
+  color: #d4af37;   
+  font-size: 2rem;  
+  transition: all 0.3s ease;
+}
+.social-links a:hover {
+  color: #ffffff;
+  transform: translateY(-3px) scale(1.15);
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.9);
+}   
+
+
+
 
 
 /* @media (max-width: 1024px) {
@@ -558,6 +633,42 @@ body::-webkit-scrollbar{
     .boxer{
         display: none;
     }
+     .madeby {
+    font-size: 14px;      
+    letter-spacing: 1px; 
+    padding: 0 10px;     
+    background-color: black;
+  }
+  .topper{
+    padding-top: 1rem;
+  }
+  .linebreak{
+    width: 100%;
+  height: 3px;
+  margin: 0 auto 12px;
+  background-color: #000;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    #d4af37,
+    transparent
+  );
+  background-size: 300% 300%;
+  animation: move 3s linear infinite;
+  border-radius: 5px;
+
+  }
+
+  .social-links {
+    gap: 14px;
+    background-color: black;
+}
+
+  .social-links a {
+    font-size: 2.5rem;  
+    background-color: black;
+  }
+
 
     .product{
         grid-template-columns: 1fr;
